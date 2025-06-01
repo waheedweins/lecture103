@@ -18,7 +18,7 @@ embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
 # loading document
 
-file_path = "data/think_and_grow_rich.pdf"
+file_path = "lecture103/data/think_and_grow_rich.pdf"
 loader = PyPDFLoader(file_path)
 doc = loader.load()
 document = doc[18:]
